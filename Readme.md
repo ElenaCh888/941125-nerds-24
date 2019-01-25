@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Елена Черемисина](https://up.htmlacademy.ru/htmlcss/24/user/941125).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
