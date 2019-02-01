@@ -6,117 +6,124 @@
   <meta name="keywords" content="Вёрстка, сайты, создание сайта"/>
   <title>Веб-студия Нёрдс</title>
 </head>
-<body>
 
+<body>
   <header class="main-header">
-    <nav class="main-navigation">
-        <img src="#" width="#" height="#" alt="Логотип Nёrd's">
-        <ul class="site-navigation">
-          <li> <a href="#">Студия</a> </li>
-          <li> <a href="#">Клиенты</a> </li>
-          <li> <a href="#">Магазин</a> </li>
-          <li> <a href="#">Контакты</a> </li>
-        </ul>
-        <ul class="main-navigation-bin">
-          <li> <a href="#">Корзина</a> </li>
-        </ul>
-    </nav>
+    <div class="container">
+      <img src="#" width="#" height="#" alt="Логотип Nёrd's">
+        <nav class="main-navigation">
+          <ul class="site-navigation">
+            <li> <a href="#">Студия</a> </li>
+            <li> <a href="#">Клиенты</a> </li>
+            <li> <a href="#">Магазин</a> </li>
+            <li> <a href="#">Контакты</a> </li>
+          </ul>
+          <ul class="main-navigation-bin">
+            <li> <a href="#">Корзина</a> </li>
+          </ul>
+        </nav>
+    </div>
     <!-- <section class="slider"> Здесь будет слайлер
     </section> -->
   </header>
 
-  <main class="container">
+  <main>
     <h1 class="visually-hidden">Веб-студия Nёrd's</h1>
 
     <section class="services">
+      <div class=container>
       <h2 class="visually-hidden">Перечень услуг по разработке</h2>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3>Веб-сайты</h3>
-          <img src="#" alt="Веб-Сайты" width="300" height="146">
-          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <button type="button" class="services-item-order-red">Заказать</button>
-        </li>
-        <li class="services-item">
-          <h3>Приложения</h3>
-          <img src="#" alt="Приложения" width="300" height="146">
-          <p>Покорите топ-10 приложений а AppStore и Google Play</p>
-          <button type="button" class="services-item-order-green">Заказать</button>
-        </li>
-        <li class="services-item">
-          <h3>Презентации</h3>
-          <img src="#" alt="Презентации" width="300" height="146">
-          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <button type="button" class="services-item-order-yellow">Заказать</button>
-        </li>
-      </ul>
+        <ul class="services-list">
+          <li class="services-item">
+            <figure> <img src="#" alt="Веб-Сайты" width="300" height="146"> </figure>
+            <h3>Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a href="#" class="services-item-order-red">Заказать</a>
+          </li>
+          <li class="services-item">
+            <figure> <img src="#" alt="Приложения" width="300" height="146"> </figure>
+            <h3>Приложения</h3>
+            <p>Покорите топ-10 приложений а AppStore и Google Play</p>
+            <a href="#" class="services-item-order-green">Заказать</a>
+          </li>
+          <li class="services-item">
+            <figure> <img src="#" alt="Презентации" width="300" height="146"> </figure>
+            <h3>Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a href="#" class="services-item-order-yellow">Заказать</a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="company-info">
-      <div class="about us">
-        <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-        <p class="company-desk">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <p class="company-services"> <b>Выполняем заказы на разработку:</b> </p>
-        <ul class="company-services-list">
-          <li class="company-services-item">Веб-сайтов любой сложности</li>
-          <li class="company-services-item">Мобилных приложений для iOS и Android</li>
-          <li class="company-services-item">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-      </div>
-      <div class="advantages-info">
-        <img src="#" alt="Красочный логотип Нёрдс" width="300" height="146">
-        <p class="table-title"> <b>С 2004 года любим точность во всем:</b> </p> 
-        <table>
-          <tr>
-            <td>146<sup>%</sup></td>
-            <td>100<sup>%</sup></td>
-            <td>50<sup>%</sup></td>
-          </tr>
-          <tr>
-            <td>Уровень самоотдачи</td>
-            <td>Соблюдение сроков</td>
-            <td>Минмальная предоплата</td>
-          </tr>
+      <div class="container">
+        <div class="about us">
+          <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+          <p class="company-desk">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="company-services"> <b>Выполняем заказы на разработку:</b> </p>
+          <ul class="company-services-list">
+            <li class="company-services-item">Веб-сайтов любой сложности</li>
+            <li class="company-services-item">Мобилных приложений для iOS и Android</li>
+            <li class="company-services-item">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+      
+        <div class="advantages-info">
+          <img src="#" alt="Красочный логотип Нёрдс" width="300" height="146">
+          <p class="table-title"> <b>С 2004 года любим точность во всем:</b> </p> 
+          <table>
+            <tr>
+              <td>146<sup>%</sup></td>
+              <td>100<sup>%</sup></td>
+              <td>50<sup>%</sup></td>
+            </tr>
+            <tr>
+              <td>Уровень самоотдачи</td>
+              <td>Соблюдение сроков</td>
+              <td>Минмальная предоплата</td>
+            </tr>
           </table>
+        </div>
       </div>
     </section>
 
     <article class="partners">
-      <ul class="partners-list">
-        <li> <a href="html"> <img src="#" alt=""> </a> </li>
-        <li> <a href="borodinski"> <img src="#" alt=""> </a> </li>
-        <li> <a href="pink"> <img src="#" alt=""> </a> </li>
-        <li> <a href="mishka"> <img src="#" alt=""> </a> </li>
-      </ul>
+      <div class="container">
+        <ul class="partners-list">
+          <li> <a href="html"> <img src="#" alt=""> </a> </li>
+          <li> <a href="borodinski"> <img src="#" alt=""> </a> </li>
+          <li> <a href="pink"> <img src="#" alt=""> </a> </li>
+          <li> <a href="mishka"> <img src="#" alt=""> </a> </li>
+        </ul>
+      </div>
     </article>
+
+    <section class="map">
+      <img src="#" alt="Карта с месторасположением Нёрдс" width="500" height="200">
+      <div class="contacts">
+          <p class="name"> <b>NЁRDS DESIGN STUDIO</b> </p>
+          <address>191186, Санкт-Петербург,<br>
+          ул. Б. Конюшенная, д. 19/8</address>
+          <p class="telephone"> тел.+7(812) 275-75-75</p>
+          <a href="#" class="letter-us-red">Напишите нам</a>
+      </div>
+    </section>
   </main>
 
   <footer class="main-footer">
-      <section class="map">
-          <figure class="map-image">
-            <img src="#" alt="Карта с месторасположением Нёрдс" width="500" height="200">
-          </figure>
-          <div class="contacts">
-              <span class="contact-details">
-              <b>NЁRDS DESIGN STUDIO</b> <br>
-              191186, Санкт-Петербург,<br>
-              ул. Б. Конюшенная, д. 19/8<br>
-              +7(812) 275-75-75
-              </span>
-              <button type="button" class="map-btn-red">Напишите нам</button>
-          </div>
-        </section>
-             
+    <div class="container">             
       <ul class="footer-social-list">
         <li class="social-list-item"> <a href="#">Vkontakte</a> </li>
         <li class="social-list-item"> <a href="#">facebook</a> </li>
         <li class="social-list-item"> <a href="#">Instagramm</a> </li>  
       </ul>
 
-      <div class="footer-promo">
-      <p> <b>Давайте дружить, это выгодно!</b> </p>
-      <p>Скидка 10% для друзей из сациальных сетей.</p>
-      </div>
+      <span class="footer-promo">
+        <p> <b>Давайте дружить, это выгодно!</b> </p>
+        <p>Скидка 10% для друзей из сациальных сетей.</p>
+      </span>
+    </div>
   </footer>
 </body>
 </html>
