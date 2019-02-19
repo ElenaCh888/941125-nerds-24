@@ -5,6 +5,9 @@
   <meta name="description" content="Сайт Веб-студии Нёрдс!"/>
   <meta name="keywords" content="Вёрстка, сайты, создание сайта"/>
   <title>Магазин готовых шаблонов студии Nerds</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,7 +40,42 @@
     <section class="catalog">
       <div class="container">
         <h2 class="visually-hidden">Фильтр услуг</h2>
-        <!-- Здесь будет форма -->
+        <form action="#" method="get">
+          <fieldset class="price">
+            <div class="range-filter">Стоимость:
+              <div class="scale">
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label for="id-from">От
+                  <input type="text" name="price-from" value="0" id="id-from">
+                </label>
+                <label for="id-to">До
+                  <input type="text" name="price-to" value="15000" id="id-to">
+                </label>
+              </div>
+            </div>
+          </fieldset>  
+         
+          <fieldset class="grid-radio">
+            <legend>Сетка:</legend>
+            <label for="id-adaptive"><input type="radio" name="grid" value="adaptive" id="id-adaptive" checked>Адаптивная</label>
+            <label for="id-fix"><input type="radio" name="grid" value="fix" id="id-fix">Фиксированная</label>
+            <label for="id-rubber"><input type="radio" name="grid" value="rubber" id="id-rubber">Резиновая</label>
+          </fieldset>
+
+          <fieldset class="advantages-checkbox">
+            <legend>Особенности:</legend>
+            <label for="id-slider"><input type="checkbox" id="id-slider" name="slider" checked>Слайдер</label>
+            <label for="id-advantages-box"><input type="checkbox" id="id-advantages-box" name="advantages-box">Блок преимуществ</label>
+            <label for="id-news"><input type="checkbox" id="id-news" name="news" checked>Новости</label>
+            <label for="id-gallery"><input type="checkbox" id="id-gallery" name="gallery">Галерея</label>
+            <label for="id-bin"><input type="checkbox" id="id-bin" name="bin">Корзина</label>
+          </fieldset>
+            
+          <button type="submit">Показать</button>
+        </form>
 
         <h2 class="visually-hidden">Карточки услуг</h2>
         <ul class="gallery-list">
@@ -88,14 +126,12 @@
             </div>
           </li>
         </ul>
-        <div class="gallery-pagination">
-          <ul class="gallery-pag-list">
-            <li class="gallery-pag-item gallery-pag-item-current"> <a href="#">1</a> </li>
-            <li class="gallery-pag-item"> <a href="#">2</a> </li>
-            <li class="gallery-pag-item"> <a href="#">3</a> </li>
-            <li class="gallery-pag-item"> <a href="#">Следующая</a> </li>
-          </ul>
-        </div>
+        <ul class="gallery-pag-list">
+          <li class="gallery-pag-item gallery-pag-item-current"> <a href="#">1</a> </li>
+          <li class="gallery-pag-item"> <a href="#">2</a> </li>
+          <li class="gallery-pag-item"> <a href="#">3</a> </li>
+          <li class="gallery-pag-item"> <a href="#">Следующая</a> </li>
+        </ul>
       </div>
     </section>
 
